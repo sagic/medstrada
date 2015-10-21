@@ -9,8 +9,7 @@ module.exports = function (routes, wantsJSON, res, url, locals, state) {
       }
       res.view("layout", {
         locals: locals || {title: '', description: ''},
-        body: React.renderToString(<Root {...state} />),
-        rr: JSON.stringify(routes)
+        body: React.renderToString(<Root {...state} />)
       });
     });
   } else if (state) {
