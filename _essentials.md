@@ -10,3 +10,7 @@ heroku pg:reset DATABASE_URL && PGUSER=sagi PGPASSWORD=sagi heroku pg:push medst
 
 
 browserify -r react -r react-router -r react-bootstrap > assets/js/dependencies/build.js
+
+
+lsof -i :[PORT]
+kill -9 [PID]

@@ -24,6 +24,21 @@ module.exports = function(grunt) {
         dest: 'assets/styles/front'
       },{
         expand: true,
+        cwd: 'node_modules/bootstrap/dist/fonts',
+        src: ['*.*'],
+        dest: 'assets/styles/fonts'
+      },{
+        expand: true,
+        cwd: 'node_modules/bootstrap/dist/js',
+        src: ['bootstrap.min.js'],
+        dest: 'assets/js/dependencies'
+      },{
+        expand: true,
+        cwd: 'node_modules/jquery/dist',
+        src: ['jquery.min.js'],
+        dest: 'assets/js/dependencies'
+      },{
+        expand: true,
         cwd: 'node_modules/requirejs',
         src: ['require.js'],
         dest: 'assets/js/dependencies'

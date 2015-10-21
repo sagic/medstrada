@@ -1,5 +1,5 @@
 var consts = {
-  mainNav: [
+  MAIN_NAV_LINKS: [
     {
       to: "home", text: "Lobby"
     },
