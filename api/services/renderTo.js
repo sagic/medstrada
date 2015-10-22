@@ -16,4 +16,4 @@ module.exports = function (routes, wantsJSON, res, url, locals, state) {
     res.json(state);
   } else
     console.log("no state...")
-}
+};
