@@ -11,6 +11,7 @@ import {NavBar} from './partials/nav'
 import {MAIN_NAV_LINKS} from './consts'
 
 export default class {
+
   render() {
     return (
       <div ref="siteLayout" className="site-layout">
