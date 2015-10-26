@@ -1,26 +1,14 @@
 {
   "name": "medstrada",
-  "version": "1.0.0",
-  "description": "OpenShift Sample Application",
-  "keywords": [
-    "OpenShift",
-    "Node.js",
-    "application",
-    "openshift"
-  ],
-  "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
-  },
-  "homepage": "http://www.openshift.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/openshift/origin-server"
-  },
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
   "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.0.0"
+    "npm": "3.3.x",
+    "node": ">= 0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
   },
   "dependencies": {
     "babelify": "^6.3.0",
@@ -55,10 +43,17 @@
     "sails-postgresql": "^0.10.16",
     "three": "^0.72.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.7.1"
-  },
   "bundleDependencies": [],
   "private": true,
-  "main": "app.js"
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sagi/medstrada.git"
+  },
+  "author": "sagi",
+  "license": ""
 }
