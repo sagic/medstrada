@@ -9,7 +9,7 @@ import routes from '../../components/front/routes'
 
 module.exports = {
   page: function (req, res) {
-    renderTo(routes, false, res, '/', {title: 'Medstrada'}, {});
+    renderTo(routes, false, res, req.url, {title: 'Medstrada'}, {});
   }
 };
 

@@ -9,6 +9,9 @@ header {
     border-radius: 0px;
     .navbar-brand {
       color: #FFF;
+      &:hover {
+        color: #FFF;
+      }
     }
     a, li > a, .navbar-nav > li > a, .navbar-text {
       color: #FFF;
@@ -19,6 +22,7 @@ header {
     .caret {
       color: #FFF;
     }
+
   }
   .dropdown-menu {
     a, li > a, .navbar-nav > li > a, .navbar-text {
@@ -111,6 +115,14 @@ header {
   }
 }
 
+.page {
+  form {
+    .input-group {
+      width: 100%;
+    }
+  }
+}
+
 .exhibition {
   position: fixed;
   z-index: 1;
@@ -157,7 +169,7 @@ header {
         .glyphicon {
           font-size: 20px;
           top: 4px;
-          right: 3px;
+          right: 6px;
         }
       }
       li {

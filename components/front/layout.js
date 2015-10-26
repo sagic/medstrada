@@ -1,7 +1,6 @@
 'use strict';
 
 import React from 'react'
-import {TransitionGroup} from 'react/addons'
 //import SiteLogo from './partials/siteLogo'
 import RecentCompanies from './partials/recentCompanies'
 import NewsArticlesTicker from './partials/newsArticlesTicker'
