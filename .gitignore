@@ -119,7 +119,7 @@ nbproject
 
 www
 .sass-cache
-.openshift
+#.openshift
 patches
 
 _tools/terrain-generator/data
