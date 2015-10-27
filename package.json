@@ -5,7 +5,7 @@
   "keywords": [],
   "engines": {
     "npm": "3.3.x",
-    "node": ">= 0.6.0"
+    "node": "0.10.x"
   },
   "devDependencies": {
     "nodemon": "^1.7.1"
